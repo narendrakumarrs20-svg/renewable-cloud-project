@@ -15,9 +15,9 @@ def download_training_data():
     """Downloads training CSVs from Google Drive using gdown."""
     # MANDATORY: Replace these placeholder IDs with your actual FILE IDs
     files = {
-        "Panapatty_.2018_scada_data.csv": "1aka58ljL8Jtyy6haVagdJC-ZUdK-X2DK",
-        "Panapatty_.2019_scada_data.csv": "1Clqxs3BlaSP7mbyJuqOPjmgqPzhve31q",
-        "Panapatty_.2020_scada_data.csv": "1XMZ5_fTO86yutzrsIzGiocGGI8MJOZO0"
+        "Panapatty_.2018_scada_data.csv": "1cJK3vu6ZAh0iypxRo827mg8hE1sKP3CT",
+        "Panapatty_.2019_scada_data.csv": "1NU0x9Uf1xbJ8r95eFGXrRMcPlt3x6xQM",
+        "Panapatty_.2020_scada_data.csv": "1Oq5DuPZz2nxQqQAQrUOysO5wmvQ6PzBa"
     }
     
     for filename, file_id in files.items():
